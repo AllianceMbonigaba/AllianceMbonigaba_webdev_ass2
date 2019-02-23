@@ -1,0 +1,279 @@
+body{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+
+}
+
+#alu{
+    width:90%;
+    text-align: center;
+    padding:0px 20px 20px 20px;
+    margin-left: 40px;
+}
+
+/* Global */
+#location {
+    margin-top: 6%;
+}
+
+.location{
+    width:45%;
+    float:left;
+    padding:20px;
+
+}
+
+.location img{
+    width:100%;
+    height:300px;
+    float:left;
+    padding:20px;
+}
+
+.newssection{
+    text-align: center;
+    float: right;
+}
+.news{
+    width:30%;
+    float:right;
+    padding:20px;
+    overflow: hidden;
+
+
+}
+.news img{
+    width:100%;
+    float:left;
+    height: 250px;
+    padding:20px;
+}
+.hire{
+    width:45%;
+    float:left;
+    padding:20px;
+    overflow: hidden;
+
+}
+.hire p{
+    padding-top: 12%;
+    text-align: center;
+}
+#main_section{
+    width: 90%;
+    margin:auto;
+    text-align: center;
+    color: black;
+    overflow: hidden;
+}
+
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+.dark{
+    padding:15px;
+    background:#35424a;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+/* Header **/
+header{
+    background-color:white;
+    color:#ffffff;
+    min-height:100px;
+
+}
+
+header a{
+    color:#000;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:16px;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding img{
+    float:left;
+    margin-left: 5%;
+    width:120px;
+    height:100px;
+    padding-bottom:  20px;
+}
+header a{
+    font-size: 25px;
+}
+
+h1{
+    font-size: 30px;
+}
+header #branding h1{
+    margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top:25px;
+    padding-right:  20px;
+
+
+
+}
+
+header .highlight, header .current a{
+    color:#e8491d;
+    font-weight:bold;
+}
+
+header a:hover{
+    color:rgb(0,100,100);
+    font-weight:bold;
+}
+
+
+
+.mainsection{
+    width:90%;
+}
+
+#showcase img{
+    width:100%;
+    height:350px;
+}
+#showcase h1{
+    font-size:45px;
+    position:absolute;
+    text-align:center;
+    bottom:420px;
+    left:20px;
+    color:white;
+    font-weight: bold;
+}
+
+#showcase p{
+    font-size:20px;
+}
+
+footer{
+
+    color:#ffffff;
+    height: 80px;
+    overflow: hidden;
+    background-color: #4c5b75;
+    margin-bottom: 20px;
+
+
+}
+
+.subfooter a{
+    color: white;
+}
+.subfooter li {
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left:40px;
+
+
+
+}
+
+.subfooter{
+    width:50%;
+    overflow: hidden;
+    float: right;
+
+
+}
+
+.form{
+    width:90%;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+input{
+    padding:10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 50%;
+    border:2px #fff solid;
+    border-radius: 10px;
+}
+textarea{
+    width: 50%;
+    margin-top:20px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    padding-right: 25px;
+    border:2px #fff solid;
+    border-radius: 10px;
+
+}
+
+#message{
+    position: relative;
+    bottom: 40px;
+
+}
+button{
+    float:center;
+    padding:15px;
+    font-weight: bold;
+    position: relative;
+    left: 340px;
+}
+p{
+    line-height: 30px;
+    font-size: 20px;
+}
+.readmore{
+    text-decoration: none;
+    border: 2px black solid;
+    padding: 10px;
+}
+.content{
+    background: rgba(100,100,200,0.4);
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+
+}
+/* unvisited link */
+.newssection a:link {
+    color: #42aaf4;
+}
+/* visited link */
+.newssection a:visited {
+    color: #b48ad8;
+}
+
+/* mouse over link */
+.newssection a:hover {
+    color: #a0d8c5;
+}
+
+/* selected link */
+.newssection a:active {
+    color: #d6a46b;
+}
+
+
+
