@@ -57,4 +57,22 @@ function showSlides(n) {
 
 }
 
+var index_loc = 0;
+function locations() {
+    let images = []; // array of images
+    // initiate image at this potion
+    images[0] = 'image7.jpg';
+    images[1] = 'image6.png';
+    images[2] = 'rwanda.png';
+    document.our_locations.src = images[index_loc];
 
+    if (index_loc < images.length - 1) {
+        index_loc++;
+    } else {
+        index_loc = 0;
+    }
+
+
+    setTimeout("slideChanger()", 3500);
+}
+window.onload = locations;

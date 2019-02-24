@@ -107,6 +107,7 @@ header li{
 
 header #branding img{
     float:left;
+    margin-top:-2%;
     margin-left: 5%;
     width:120px;
     height:100px;
@@ -282,6 +283,7 @@ p{
 
 * #container{
     box-sizing: border-box;
+    padding-top: 10px;
 }
 .container {
     position: relative;
@@ -370,6 +372,8 @@ p{
     min-height: 300px;
     margin-top: -3px;
     background: #35424a;
+    border-bottom-left-radius: 800px;
+
 
 }
 .gallery_introduction h3{
@@ -388,3 +392,69 @@ p{
     font-size: 25px;
 
 }
+.aboutus_intro{
+    min-height: 300px;
+    border-bottom-right-radius: 900px;
+    background: #35424a;
+    margin-bottom: -20px;
+    margin-top: -26px;
+
+}
+.aboutus_intro h3{
+    padding-left: 50%;
+    padding-top: 10%;
+    color: #f2f2f2;
+    font-size: 20px;
+}
+
+/**************************************************/
+/* Styling about us page*/
+.who_we_are{
+    opacity: 0.5;
+}
+.who_we_are p{
+    text-align: center;
+}
+.discp{
+    flex: 50%;
+}
+.discp:hover{
+    flex: 70%;
+    font-size: 30px;
+}
+
+.who_we_are:hover{
+opacity: 1;
+
+}
+.img_who_we_are{
+    flex: 50%;
+}
+.img_who_we_are:hover{
+    flex: 30%;
+}
+
+/* styling discribe_us segment*/
+.decribe_us{
+    text-align: center;
+
+}
+.location{
+    border-bottom-left-radius: 50px;
+    flex: 25%;
+    transition: flex 2s;
+}
+.location:hover{
+    flex: 30%;
+}
+
+
+.career{
+    border-top-left-radius: 50px;
+    flex: 25%;
+}
+.our_prod{
+    border-bottom-right-radius: 50px;
+    flex: 25%;
+}
+
