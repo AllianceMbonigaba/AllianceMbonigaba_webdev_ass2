@@ -88,7 +88,7 @@ ul{
 header{
     background-color:white;
     color:#ffffff;
-    min-height:100px;
+    min-height:50px;
 
 }
 
@@ -117,6 +117,7 @@ header a{
 }
 
 h1{
+
     font-size: 30px;
 }
 header #branding h1{
@@ -278,7 +279,8 @@ p{
 /*------------------------------*/
 /* Style gallery page*/
 /* Position the image container (needed to position the left and right arrows) */
-#container{
+
+* #container{
     box-sizing: border-box;
 }
 .container {
@@ -361,4 +363,28 @@ p{
 .active,
 .demo:hover {
     opacity: 1;
+}
+
+
+.gallery_introduction{
+    min-height: 300px;
+    margin-top: -3px;
+    background: #35424a;
+
+}
+.gallery_introduction h3{
+    float: right;
+    font-family: "Times New Roman";
+    padding-top: 100px;
+    color: #d6a46b;
+    transition: color 3s, font-size 3s;
+
+
+
+
+ }
+/* animate the intro */
+.gallery_introduction:hover{
+    font-size: 25px;
+
 }
