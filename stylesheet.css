@@ -358,12 +358,12 @@ p{
 }
 
 /* Add a transparency effect for thumnbail images */
-.demo {
+.c_cursor {
     opacity: 0.6;
 }
 
 .active,
-.demo:hover {
+.c_cursor:hover {
     opacity: 1;
 }
 
@@ -437,24 +437,35 @@ opacity: 1;
 /* styling discribe_us segment*/
 .decribe_us{
     text-align: center;
+    color:white;
+    padding-bottom: 20px;
+
 
 }
-.location{
-    border-bottom-left-radius: 50px;
+.locations{
+    border-top-right-radius: 100px;
     flex: 25%;
-    transition: flex 2s;
+    transition: flex 1s;
+    background-image: url("image5.jpg");
+
 }
-.location:hover{
+.locations:hover{
+
     flex: 30%;
 }
 
 
 .career{
-    border-top-left-radius: 50px;
+    border-bottom-right-radius: 500px;
     flex: 25%;
+    background-image: url("new1.jpg");
+    background-repeat: no-repeat;
+
 }
 .our_prod{
-    border-bottom-right-radius: 50px;
+    border-bottom-right-radius: 500px;
+    background-image: url("coho-coffee.jpg");
     flex: 25%;
+    background-repeat: no-repeat;
 }
 

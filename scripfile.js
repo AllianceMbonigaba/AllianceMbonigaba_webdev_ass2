@@ -1,6 +1,7 @@
 
 
 let i = 0;
+let ind = 0;
 
 function slideChanger() {
     let images = []; // array of images
@@ -40,7 +41,7 @@ function currentSlide(n) {
 function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("demo");
+    var dots = document.getElementsByClassName("c_cursor");
     var captionText = document.getElementById("caption");
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
@@ -57,22 +58,23 @@ function showSlides(n) {
 
 }
 
-var index_loc = 0;
-function locations() {
-    let images = []; // array of images
-    // initiate image at this potion
-    images[0] = 'image7.jpg';
-    images[1] = 'image6.png';
-    images[2] = 'rwanda.png';
-    document.our_locations.src = images[index_loc];
+// form validity
+// name validation
 
-    if (index_loc < images.length - 1) {
-        index_loc++;
-    } else {
-        index_loc = 0;
+function namevalid() {
+    var valid;
+    valid = /^[-a-z A-z] + $/;
+    if(document.forms["process.php"]['name'].match(valid)){
+        return true
+    } else{
+        window.alert("your name must be in this form: jjjj-jjjj");
+        document.forms["process.php"]['name'].focus();
+        return false
     }
-
-
-    setTimeout("slideChanger()", 3500);
 }
-window.onload = locations;
+
+function submitted() {
+    window.alert('You have submitted')
+}
+
+
